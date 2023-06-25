@@ -1,0 +1,124 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 4rem;
+}
+
+.game-container {
+    margin: auto;
+    max-width: 300px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 5px;
+}
+
+.cell {
+    width: 50px;
+    height: 50px;
+    padding: 0.8rem;
+    background: #4caf4f;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cell img {
+    height: 40px;
+}
+
+.cell i {
+    font-size: 2.5rem;
+}
+
+.player {
+    background-color: antiquewhite;
+}
+
+.fa-circle {
+    color: blue;
+}
+
+.fa-xmark {
+    color: red;
+}
+
+.primary-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    letter-spacing: 2px;
+}
+
+.secondary-heading {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    letter-spacing: 2px;
+}
+
+.start-btn {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 2.2rem;
+    font-family: Montserrat;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    text-align: center;
+    font-weight: 700;
+    display: block;
+    margin: auto;
+}
+
+.start-btn:hover {
+    letter-spacing: 0.1ch;
+}
+
+.score {
+    font-weight: bold;
+    font-size: 4.5rem;
+    background-color: lightblue;
+    padding: 13px;
+    border-radius: 5px;
+    color: rgb(26, 74, 0);
+    text-align: center;
+    margin: 0;
+    height: max-content;
+}
+
+.winner-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    background-color: paleturquoise;
+    margin-top: 3rem;
+    padding: 10px;
+    border-radius: 5px;
+    color: rgba(0, 0, 0);
+    display: none;
+}
+
+.round-heading {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: #333333;
+    background-color: #F5F5F5;
+    padding: 10px;
+    border-radius: 5px;
+}

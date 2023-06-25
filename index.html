@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>tick-tat-toe</title>
+</head>
+
+<body>
+    <h1 class="primary-heading">Tick-Tat-Toe</h1>
+    <button class="start-btn" id="play">New Game</button>
+    <h1 class="round-heading">Round 1</h1>
+    <div class="container">
+        <div id="player1" class="player">
+            <h1 class="secondary-heading">Player 1 <br> (ZERO)</h1>
+            <h1 class="score">0</h1>
+        </div>
+        <div class="game-container">
+            <div class="cell" id="cell1"></div>
+            <div class="cell" id="cell2"></div>
+            <div class="cell" id="cell3"></div>
+            <div class="cell" id="cell4"></div>
+            <div class="cell" id="cell5"></div>
+            <div class="cell" id="cell6"></div>
+            <div class="cell" id="cell7"></div>
+            <div class="cell" id="cell8"></div>
+            <div class="cell" id="cell9"></div>
+        </div>
+        <div id="player2" class="player">
+            <h1 class="secondary-heading">Player 2 <br> (KATA)</h1>
+            <h1 class="score">0</h1>
+        </div>
+    </div>
+    <h1 class="winner-heading"></h1>
+
+    <!-- javascript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
